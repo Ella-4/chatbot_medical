@@ -56,8 +56,8 @@ sudo apt-get install mongodb
 
 ### 1. 저장소 클론
 ```bash
-git clone https://github.com/Jamie-Kang/medical-knowledge-chatbot.git
-cd medical-knowledge-chatbot
+git clone https://github.com/Ella-4/chatbot_medical.git
+cd chatbot_medical
 ```
 
 ### 2. 가상환경 설정
@@ -105,23 +105,6 @@ medical-knowledge-chatbot/
 ├── preprocess_and_upload.py    # 데이터 전처리 및 MongoDB 업로드
 └── studybot.py                 # Streamlit 챗봇 메인 앱
 ```
-
-## 🔧 설정
-
-`preprocess_and_upload.py` 파일에서 다음 경로를 본인 환경에 맞게 수정하세요:
-
-```python
-# 데이터 경로 수정 (26번째 줄 근처)
-base_dir = "/Users/jamie/Desktop/09.필수의료 의학지식 데이터/3.개방데이터/1.데이터/Training/02.라벨링데이터"
-# ↓ 본인 경로로 변경
-base_dir = "your/path/to/09.필수의료 의학지식 데이터/3.개방데이터/1.데이터/Training/02.라벨링데이터"
-```
-
-## 사용법
-
-1. 챗봇 실행 후 키워드 입력창에 의학 관련 키워드 입력
-2. 예시 키워드: `기침`, `칼슘 보충제`, `두통`, `발열` 등
-3. 관련 질문 3개와 정답이 진료과별로 표시됨
 
 ## 데이터 구조
 
