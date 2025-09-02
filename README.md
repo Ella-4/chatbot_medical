@@ -10,7 +10,7 @@
 - MongoDB 기반 빠른 검색
 - 직관적인 Streamlit UI
 
-## 🛠기술 스택
+## 기술 스택
 
 - **Frontend**: Streamlit
 - **Database**: MongoDB
