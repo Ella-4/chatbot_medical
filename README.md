@@ -1,4 +1,4 @@
-# 의학지식 탐구챗봇 (Medical Knowledge Explorer Chatbot) 💊
+# 의학지식 탐구챗봇 (Medical Knowledge Explorer Chatbot)
 
 키워드 기반으로 의학 관련 질문과 정답을 검색할 수 있는 Streamlit 기반 챗봇입니다.
 
